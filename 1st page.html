@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <style>
+    .container{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      border: solid;
+      font-family: Montserrat;
+    }
+
+    .box{
+      padding: 5px;
+      margin: 7px;
+      border: solid;
+      border-color: seagreen;
+      border-radius: 5px;
+    }
+
+   
+  </style>
+  <body>
+    <div class="container">
+      <h1>Register</h1>
+      <div><input type="text" placeholder="Name" class="box" /></div>
+
+      <div><input type="date"  class="box" style="width: 160px;"/></div>
+      <div><input type="text" placeholder="Account Number" class="box" /></div>
+      <div><input type="text" placeholder="IFSC Code" class="box" /></div>
+      <div><input type="text" placeholder="Email"  class="box"/></div>
+      <div><input type="text" placeholder="Phone"  class="box" style="margin-bottom: 30px;"/></div>
+      <div class="button"><button style="height: 30px; width: 50px;" >GO</button></div>
+      <p>Already have an account <a href="./2ndpage.html" style="color: seagreen;">Login</a></p>
+  </body>
+</html>
